@@ -27,7 +27,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="flex items-center gap-4">
-                    <button className="bg-white text-[#334155] text-sm font-medium py-3 px-6 rounded-full">Sign In</button>
+                    <button className="text-[#334155] text-sm font-medium py-3 px-6 rounded-full">Sign In</button>
                     <button className="bg-[#D91B7E] text-white text-sm font-medium py-3 px-6 rounded-full">Sign Up</button>
                 </div>
             </div>
@@ -43,7 +43,7 @@ const Navbar = () => {
                     <img src={Logo} alt="Logo Image" />
                 </div>
                 <div className="flex items-center gap-2">
-                    <button className="bg-white text-[#334155] text-xs font-medium py-2 px-3 rounded-full">
+                    <button className="text-[#334155] text-xs font-medium py-2 px-3 rounded-full">
                         Sign In
                     </button>
                     <button className="bg-[#D91B7E] text-white text-xs font-medium py-2 px-3 rounded-full">
