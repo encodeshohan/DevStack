@@ -1,1 +1,15 @@
+.primary-font {
+  font-family: "Inter", sans-serif;
+}
 
+.secondary-font {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.slate-color{
+  color: #475569;
+}
+
+.pink-color{
+  color: #DB2777;
+}
