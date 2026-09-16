@@ -7,25 +7,28 @@ const Footer = () => {
 
             <footer className="primary-font container mx-auto px-4 py-10">
 
-                <div className="grid grid-cols-5 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
 
                     {/* Logo Column */}
-                    <div className="col-span-2 grid gap-4 pr-8">
-                        <img src={Logo} alt="Logo Image" />
+                    <div className="md:col-span-2 grid gap-4 md:pr-8 text-center md:text-left">
+                        <img
+                            src={Logo} alt="Logo Image" className="mx-auto md:mx-0" />
 
                         <p className="text-[#64748B] text-xs">
                             Curated tools, technologies, and resources for developers building modern software.
                         </p>
 
-                        <div className="flex items-center gap-5 mt-5">
+                        <div className="flex items-center justify-center md:justify-start gap-3 mt-5">
                             <a href="#" className="text-[#475569] font-semibold text-xs">Github</a>
+                            <span className="text-[#334155] text-xs md:hidden">•</span>
                             <a href="#" className="text-[#475569] font-semibold text-xs">Twitter</a>
+                            <span className="text-[#334155] text-xs md:hidden">•</span>
                             <a href="#" className="text-[#475569] font-semibold text-xs">LinkedIn</a>
                         </div>
                     </div>
 
                     {/* Product Column */}
-                    <div>
+                    <div className="hidden md:block">
                         <h3 className="text-[#0F172A] font-semibold mb-4">PRODUCT</h3>
 
                         <div className="flex flex-col gap-3">
@@ -36,11 +39,10 @@ const Footer = () => {
                     </div>
 
                     {/* Company Column */}
-                    <div>
+                    <div className="hidden md:block">
                         <h3 className="text-[#0F172A] font-semibold mb-4">COMPANY</h3>
 
                         <div className="flex flex-col gap-3">
-                            <a href="#" className="text-[#64748B] text-xs">About</a>
                             <a href="#" className="text-[#64748B] text-xs">About</a>
                             <a href="#" className="text-[#64748B] text-xs">Contact</a>
                             <a href="#" className="text-[#64748B] text-xs">Careers</a>
@@ -48,7 +50,7 @@ const Footer = () => {
                     </div>
 
                     {/* Legal Column */}
-                    <div>
+                    <div className="hidden md:block">
                         <h3 className="text-[#0F172A] font-semibold mb-4">LEGAL</h3>
 
                         <div className="flex flex-col gap-3">
@@ -63,6 +65,7 @@ const Footer = () => {
 
                 {/* Bootom Footer */}
                 <div className="flex items-center justify-between">
+
                     <p className="text-[#64748B] text-xs">
                         © 2026 Dev Stack. All rights reserved.
                     </p>
@@ -71,6 +74,7 @@ const Footer = () => {
                         <a href="#" className="text-[#64748B] text-xs">Privacy</a>
                         <a href="#" className="text-[#64748B] text-xs">Terms</a>
                     </div>
+
                 </div>
 
             </footer>
@@ -79,4 +83,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
