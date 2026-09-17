@@ -1,32 +1,98 @@
-# React + TypeScript + Vite
+# 🚀 DevStack
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive technology stack explorer built with React, TypeScript, and Tailwind CSS. DevStack allows developers to explore different technologies, view their details, and build their own development stack by selecting the technologies they want to use.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Project Overview
 
-## React Compiler
+**DevStack** is a frontend web application designed to help developers explore and organize technologies used in modern software development.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Technologies are organized into categories such as:
 
-## Expanding the Oxlint configuration
+- Frontend
+- Backend
+- Database
+- Language
+- Styling
+- DevOps
+- Tools
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+Users can browse available technologies and add them to their personal stack.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+---
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 🛠️ Technologies Used
+
+### Frontend
+
+- ⚛️ React
+- 🔷 TypeScript
+- 🎨 Tailwind CSS
+- 🌼 DaisyUI
+- ⚡ Vite
+
+### Libraries
+
+- `react-icons` — Icons
+- `react-hot-toast` — Success and error notifications
+
+### Data
+
+- 📄 JSON — Technology information is stored in `public/data.json`
+
+---
+
+## ✨ Features
+
+### 1. 🔎 Explore Technologies
+
+Browse different development technologies with useful information such as:
+
+- Technology name
+- Category
+- Description
+- Rating
+- Difficulty level
+- Technology badge
+
+### 2. 🧩 Build Your Own Stack
+
+Users can select technologies and add them to **Your Stack**.
+
+Selected technologies are displayed in a separate sidebar, where users can also remove individual technologies or remove the entire stack.
+
+### 3. 📱 Responsive Design
+
+The application is designed to work across different screen sizes.
+
+It includes:
+
+- Responsive navigation
+- Mobile menu
+- Responsive technology cards
+- Responsive technology grid
+- Mobile-friendly stack section
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── Banner.tsx
+│   ├── Footer.tsx
+│   ├── Navbar.tsx
+│   ├── technologies.ts
+│   └── technologies/
+│       ├── Technologies.tsx
+│       └── TechnologiesCard.tsx
+│
+├── App.css
+├── App.tsx
+├── index.css
+└── main.tsx
+
+public/
+└── data.json
