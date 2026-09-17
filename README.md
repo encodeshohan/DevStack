@@ -102,7 +102,7 @@ public/
 # React Questions
 
 1. **What is JSX, and why is it used in React?**
-   ```text
+   ```
    Markup syntax inside JavaScript. Babel compiles each tag into a `React.createElement()` call. It's used because nested UI is far easier to read as tags than as nested function calls. Differences from HTML: `className`, camelCase events, all tags close, `{}` for expressions.
   ```
 
