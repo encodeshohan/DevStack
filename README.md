@@ -102,9 +102,7 @@ public/
 # React Questions
 
 1. **What is JSX, and why is it used in React?**
-   ```
    Markup syntax inside JavaScript. Babel compiles each tag into a `React.createElement()` call. It's used because nested UI is far easier to read as tags than as nested function calls. Differences from HTML: `className`, camelCase events, all tags close, `{}` for expressions.
-  ```
 
 2. **What is the difference between props and state?**
    Props come from the parent and are read-only. State belongs to the component and changes via its setter. If this component changes the value, it's state; if it only displays it, it's a prop.
