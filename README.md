@@ -96,3 +96,23 @@ src/
 
 public/
 └── data.json
+
+
+## 📌 Future Improvements
+
+Some features that could be added in the future:
+
+- 🔍 Search technologies
+- 🏷️ Filter technologies by category
+- 📊 Compare technologies
+- 💾 Save the selected stack
+- 🌙 Dark mode
+- 🔗 Technology documentation links
+
+---
+
+## 👨‍💻 Author
+
+**MD. SHOHANUR RAHMAN SHOHAN**
+
+Built with ❤️ using React, TypeScript, and Tailwind CSS.
