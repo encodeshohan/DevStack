@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <Toaster position="top-center" reverseOrder={false} />
+      <Toaster position="top-right" reverseOrder={false} />
       <Navbar />
       <Banner />
       <Suspense fallback={<h2 className="primary-font text-base text-[#7C3AED] text-center py-10 font-semibold">Loading......</h2>}>
