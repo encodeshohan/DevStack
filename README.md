@@ -96,7 +96,7 @@ src/
 
 public/
 └── data.json
-
+```
 
 ## 📌 Future Improvements
 
